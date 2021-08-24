@@ -34,3 +34,4 @@ yarn-error.log*
 
 # vercel
 .vercel
+src/components/Post/__snapshots__/Post.test.tsx.snap
