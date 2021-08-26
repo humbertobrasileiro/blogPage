@@ -71,7 +71,7 @@ exports[`<PostGrid /> should match snapshot 1`] = `
           <img
             alt="Despertando a igreja"
             class="c3"
-            src="https://res.cloudinary.com/projeto-5/image/upload/v1628952649/avivamento_b9ef1501a7.jpg"
+            src="https://res.cloudinary.com/projeto-5/image/upload/v1629807677/avivamento_b9ef1501a7.png"
           />
         </a>
         <h2

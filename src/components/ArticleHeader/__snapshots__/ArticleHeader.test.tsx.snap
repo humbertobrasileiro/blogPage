@@ -82,7 +82,7 @@ exports[
     <img
       alt="Despertando a igreja"
       class="c4"
-      src="https://res.cloudinary.com/projeto-5/image/upload/v1628952649/avivamento_b9ef1501a7.jpg"
+      src="https://res.cloudinary.com/projeto-5/image/upload/v1629807677/avivamento_b9ef1501a7.png"
     />
     <div
       class="c5"
@@ -101,10 +101,8 @@ exports[
         >
            | 
         </span>
-        <time
-          datetime="2020-04-20"
-        >
-          19 de abr. de 2020
+        <time>
+          Invalid Date
         </time>
         <span
           class="separator"
