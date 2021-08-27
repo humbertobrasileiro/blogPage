@@ -1,6 +1,6 @@
 export default {
-  url: 'https://strapi-blog-humberto.herokuapp.com',
+  url: 'https://strapi-blog-humberto.herokuapp.com/',
   siteName: 'Carlos Humberto',
-  defaultSlug: 'landing-page',
+  defaultSlug: 'posts',
   graphqlURL: 'http://127.0.0.1:1337/graphql',
 };
