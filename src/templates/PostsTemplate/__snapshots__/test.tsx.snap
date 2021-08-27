@@ -1,6 +1,61 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<PostsTemplate /> should match snapshot 1`] = `
+.c6 {
+  color: #000000;
+  line-height: 1.2;
+  font-size: 2.4rem;
+  text-transform: uppercase;
+}
+
+.c11 {
+  color: #000000;
+  line-height: 1.2;
+  font-size: 2.4rem;
+  text-transform: none;
+}
+
+.c15 .c5 {
+  margin: 0;
+  margin-top: calc(1.6rem - 0.6rem);
+  margin-bottom: 1.6rem;
+}
+
+.c15 a {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: inherit;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+.c15:hover a {
+  color: #dc143c;
+}
+
+.c15:hover img {
+  opacity: 0.8;
+}
+
+.c16 {
+  max-width: 100%;
+  -webkit-transition: opacity 300ms ease-in-out;
+  transition: opacity 300ms ease-in-out;
+}
+
+.c13 {
+  width: 100%;
+}
+
+.c14 {
+  max-width: 120rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(28rem,1fr));
+  gap: 3.2rem;
+  padding: 3.2rem;
+}
+
 .c20 {
   font-size: calc(1.6rem + 0.2rem);
   line-height: 1.5;
@@ -155,20 +210,6 @@ exports[`<PostsTemplate /> should match snapshot 1`] = `
   overflow: hidden;
 }
 
-.c6 {
-  color: #000000;
-  line-height: 1.2;
-  font-size: 2.4rem;
-  text-transform: uppercase;
-}
-
-.c11 {
-  color: #000000;
-  line-height: 1.2;
-  font-size: 2.4rem;
-  text-transform: none;
-}
-
 .c7 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -302,45 +343,10 @@ exports[`<PostsTemplate /> should match snapshot 1`] = `
   padding: 3.2rem;
 }
 
-.c15 .c5 {
-  margin: 0;
-  margin-top: calc(1.6rem - 0.6rem);
-  margin-bottom: 1.6rem;
-}
-
-.c15 a {
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  color: inherit;
-  -webkit-transition: all 300ms ease-in-out;
-  transition: all 300ms ease-in-out;
-}
-
-.c15:hover a {
-  color: #dc143c;
-}
-
-.c15:hover img {
-  opacity: 0.8;
-}
-
-.c16 {
-  max-width: 100%;
-  -webkit-transition: opacity 300ms ease-in-out;
-  transition: opacity 300ms ease-in-out;
-}
-
-.c13 {
-  width: 100%;
-}
-
-.c14 {
-  max-width: 120rem;
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: repeat(auto-fill,minmax(28rem,1fr));
-  gap: 3.2rem;
-  padding: 3.2rem;
+@media (max-width:360px) {
+  .c14 {
+    grid-template-columns: 1fr;
+  }
 }
 
 @media (max-width:768px) {
@@ -364,12 +370,6 @@ exports[`<PostsTemplate /> should match snapshot 1`] = `
 @media (max-width:768px) {
   .c0 {
     left: -0.5rem;
-  }
-}
-
-@media (max-width:360px) {
-  .c14 {
-    grid-template-columns: 1fr;
   }
 }
 
@@ -571,6 +571,39 @@ exports[`<PostsTemplate /> should match snapshot 1`] = `
 `;
 
 exports[`<PostsTemplate /> should match snapshot without posts 1`] = `
+.c6 {
+  color: #000000;
+  line-height: 1.2;
+  font-size: 2.4rem;
+  text-transform: uppercase;
+}
+
+.c11 {
+  color: #000000;
+  line-height: 1.2;
+  font-size: 2.4rem;
+  text-transform: none;
+}
+
+.c13 {
+  width: 100%;
+}
+
+.c14 {
+  padding: 3.2rem;
+  text-align: center;
+  font-size: 1.6rem;
+}
+
+.c15 {
+  max-width: 120rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(28rem,1fr));
+  gap: 3.2rem;
+  padding: 3.2rem;
+}
+
 .c19 {
   font-size: calc(1.6rem + 0.2rem);
   line-height: 1.5;
@@ -725,20 +758,6 @@ exports[`<PostsTemplate /> should match snapshot without posts 1`] = `
   overflow: hidden;
 }
 
-.c6 {
-  color: #000000;
-  line-height: 1.2;
-  font-size: 2.4rem;
-  text-transform: uppercase;
-}
-
-.c11 {
-  color: #000000;
-  line-height: 1.2;
-  font-size: 2.4rem;
-  text-transform: none;
-}
-
 .c7 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -872,23 +891,10 @@ exports[`<PostsTemplate /> should match snapshot without posts 1`] = `
   padding: 3.2rem;
 }
 
-.c13 {
-  width: 100%;
-}
-
-.c14 {
-  padding: 3.2rem;
-  text-align: center;
-  font-size: 1.6rem;
-}
-
-.c15 {
-  max-width: 120rem;
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: repeat(auto-fill,minmax(28rem,1fr));
-  gap: 3.2rem;
-  padding: 3.2rem;
+@media (max-width:360px) {
+  .c15 {
+    grid-template-columns: 1fr;
+  }
 }
 
 @media (max-width:768px) {
@@ -912,12 +918,6 @@ exports[`<PostsTemplate /> should match snapshot without posts 1`] = `
 @media (max-width:768px) {
   .c0 {
     left: -0.5rem;
-  }
-}
-
-@media (max-width:360px) {
-  .c15 {
-    grid-template-columns: 1fr;
   }
 }
 

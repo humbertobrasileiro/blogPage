@@ -101,8 +101,10 @@ exports[
         >
            | 
         </span>
-        <time>
-          Invalid Date
+        <time
+          datetime="2021-08-26"
+        >
+          25 de ago. de 2021
         </time>
         <span
           class="separator"

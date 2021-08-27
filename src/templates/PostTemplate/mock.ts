@@ -1,7 +1,7 @@
-import { BaseTemplateProps } from '.';
+import { PostTemplateProps } from '.';
 import { data } from '../../api/dados.json';
 
 export default {
   settings: data.setting,
-  children: 'Olá mundo',
-} as BaseTemplateProps;
+  post: data.posts[0],
+} as PostTemplateProps;
