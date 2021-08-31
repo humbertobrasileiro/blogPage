@@ -173,24 +173,24 @@ exports[`<Menu /> should match snapshot 1`] = `
       </div>
       <a
         class="c8"
+        href="#link1"
+        target="_self"
+      >
+        Pagina 1
+      </a>
+      <a
+        class="c8"
         href="#link2"
         target="_self"
       >
-        um texto qualquer
+        Pagina 2
       </a>
       <a
         class="c8"
-        href="#home"
-        target="_blank"
+        href="#douglas"
+        target="_self"
       >
-        outro link
-      </a>
-      <a
-        class="c8"
-        href="pagina"
-        target="_blank"
-      >
-        minha nova pagina
+        Página do Douglas
       </a>
     </nav>
   </div>

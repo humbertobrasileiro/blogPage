@@ -468,24 +468,24 @@ exports[`<PostsTemplate /> should match snapshot 1`] = `
         </div>
         <a
           class="c8"
+          href="#link1"
+          target="_self"
+        >
+          Pagina 1
+        </a>
+        <a
+          class="c8"
           href="#link2"
           target="_self"
         >
-          um texto qualquer
+          Pagina 2
         </a>
         <a
           class="c8"
-          href="#home"
-          target="_blank"
+          href="#douglas"
+          target="_self"
         >
-          outro link
-        </a>
-        <a
-          class="c8"
-          href="pagina"
-          target="_blank"
-        >
-          minha nova pagina
+          Página do Douglas
         </a>
       </nav>
     </div>
@@ -584,6 +584,33 @@ exports[`<PostsTemplate /> should match snapshot 1`] = `
               class=""
             >
               teste
+            </p>
+          </div>
+          <div
+            class="c16"
+          >
+            <a
+              href="/post/php-laravel"
+            >
+              <img
+                alt="Desenvolvendo PHP com laravel"
+                class="c17"
+                src="https://res.cloudinary.com/projeto-5/image/upload/v1630365104/laravel_logo_81338e73ae.png"
+              />
+            </a>
+            <h2
+              class="c5 c12"
+            >
+              <a
+                href="/post/php-laravel"
+              >
+                Desenvolvendo PHP com laravel
+              </a>
+            </h2>
+            <p
+              class=""
+            >
+              Programando PHP com framework Laravel
             </p>
           </div>
         </div>
@@ -1077,24 +1104,24 @@ exports[`<PostsTemplate /> should match snapshot without posts 1`] = `
         </div>
         <a
           class="c8"
+          href="#link1"
+          target="_self"
+        >
+          Pagina 1
+        </a>
+        <a
+          class="c8"
           href="#link2"
           target="_self"
         >
-          um texto qualquer
+          Pagina 2
         </a>
         <a
           class="c8"
-          href="#home"
-          target="_blank"
+          href="#douglas"
+          target="_self"
         >
-          outro link
-        </a>
-        <a
-          class="c8"
-          href="pagina"
-          target="_blank"
-        >
-          minha nova pagina
+          Página do Douglas
         </a>
       </nav>
     </div>

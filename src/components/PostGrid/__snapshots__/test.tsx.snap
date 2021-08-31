@@ -116,6 +116,33 @@ exports[`<PostGrid /> should match snapshot 1`] = `
           teste
         </p>
       </div>
+      <div
+        class="c2"
+      >
+        <a
+          href="/post/php-laravel"
+        >
+          <img
+            alt="Desenvolvendo PHP com laravel"
+            class="c3"
+            src="https://res.cloudinary.com/projeto-5/image/upload/v1630365104/laravel_logo_81338e73ae.png"
+          />
+        </a>
+        <h2
+          class="c4 c5"
+        >
+          <a
+            href="/post/php-laravel"
+          >
+            Desenvolvendo PHP com laravel
+          </a>
+        </h2>
+        <p
+          class=""
+        >
+          Programando PHP com framework Laravel
+        </p>
+      </div>
     </div>
   </div>
 </div>

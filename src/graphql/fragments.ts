@@ -41,7 +41,7 @@ export const GRAPHQL_FRAGMENTS = gql`
       ...category
     }
   }
-  fragment menuLink on ComponentMenuMenuLink {
+  fragment menuLink on ComponentMenuMenulink {
     id
     link
     text
